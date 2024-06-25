@@ -1,0 +1,198 @@
+
+    /*  css for home page  */
+
+ /*   we use labrary for beater font*/
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+</style>
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    background-color: rgb(29, 27, 27);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px, 100px;
+
+}
+.logo{
+    text-decoration: none;
+    color: #1dbc62;
+    font-size: 20px;
+}
+.page a{
+    text-decoration: none;
+    color: #63bd2b;
+    padding-right: 75px;
+
+}
+section {
+    padding: 100px 200px;
+    
+}
+.wo {
+    padding: 700px 100px;
+ 
+    width:100%;
+    min-width:100hv;
+    display: flex;
+    align-items: center;
+    background:url(medeia/o.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.wo h2{
+color: rgb(0, 0, 0);
+font-weight: 600px;
+font-size: 1.6em;
+
+}
+.wo h2 span {
+    color:red ;
+}
+.wo h3{
+
+    color: blue;
+}
+.re{
+    color: rgb(206, 51, 141);
+    font-weight: 700;
+    font-size: 1.5em;
+
+
+
+
+}
+.name{
+    color: red;
+    text-align:left;
+   padding-top: 100px;
+   font-size: 20px;
+   
+    font-weight: 700;
+    
+}
+ul{
+    
+    padding-top: 25px;
+    color: black;
+    font-size: 17px;
+}
+
+.link {
+    color: #9fe474;
+    font-size: 18px;
+    padding-top: 125px;
+
+}
+ a{
+    color: red;
+    
+ }
+ .dr{
+    text-align: right;
+    color: red;
+    font-size: 20px;
+ }
+ footer{
+    text-align: center;
+    padding-top: 50px;
+    color: dodgerblue;
+ }
+ samp{
+    color: rgb(147, 24, 86);
+    font-size: 15px;
+ }
+
+ 
+
+ /*  css for about us page*/
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.aa{
+    display: flex;
+    justify-content: center;
+    flex  direction: row;
+}
+.form{
+    background-color: #9fe474;
+    width: 350px;
+    
+
+}
+.conc{
+    text-align:left;
+    padding-left: 75px;
+    background-color: aqua;
+    
+}
+
+
+ /* css for Properties page*/
+
+.prop{
+
+    color: red;
+   text-align: center;
+   font-size: 20px;
+   
+}
+.prop p{
+    color: rgb(31, 63, 208);
+    text-align: center;
+    font-size: 22px;
+    
+}
+.t{
+    text-align: right;
+    padding-top: 50px;
+    
+
+
+}
+table {
+    text-align: center;
+    width: 99%;
+
+} 
+
+th{
+    background: rgb(219, 167, 167);
+}
+
+tr{
+    background: #d6ebc8;
+    
+    }
+#sub{
+
+    width:  100px ;
+    background-color: #e7ab07;
+    font-size: larger;
+   
+}
+
+#send{
+    font-size: larger;
+    width: 80px;
+    background-color: aqua;
+}
